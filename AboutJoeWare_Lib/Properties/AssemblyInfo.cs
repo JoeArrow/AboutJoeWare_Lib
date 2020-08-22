@@ -9,9 +9,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("E99965")]
-[assembly: AssemblyTitle("AboutJoeWare_Lib")]
-[assembly: AssemblyProduct("AboutJoeWare_Lib")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyTitle("JoeWare_Lib")]
+[assembly: AssemblyProduct("JoeWare_Lib")]
+[assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyDescription("From the Lib Assembly...\r\n\r\nAnd that is the Rub!")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

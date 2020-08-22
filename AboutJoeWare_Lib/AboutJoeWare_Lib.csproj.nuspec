@@ -8,6 +8,13 @@
         <copyright>$Copyright$</copyright>
         <authors>E99965 - Joe Arrowood</authors>
         <description>$description$</description>
+        <license type="file">License.txt</license>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5.1" />
+        </dependencies>
     </metadata>
+    <files>
+        <file src="License\License.txt" target=""/>
+    </files>
 </package>
