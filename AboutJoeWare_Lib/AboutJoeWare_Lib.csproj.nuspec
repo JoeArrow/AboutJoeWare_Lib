@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package>
+    <metadata>
+        <id>$id$</id>
+        <title>$title$</title>
+        <version>$version$</version>
+        <tags>AboutBox Arrowood</tags>
+        <copyright>$Copyright$</copyright>
+        <authors>E99965 - Joe Arrowood</authors>
+        <description>$description$</description>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    </metadata>
+</package>

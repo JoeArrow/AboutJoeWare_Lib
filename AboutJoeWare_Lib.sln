@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutJoeWare_Lib", "AboutJoeWare_Lib\AboutJoeWare_Lib.csproj", "{F8ADF389-617F-4E72-90C3-E939F02B27A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckOutTheAboutBox", "CheckOutTheAboutBox\CheckOutTheAboutBox.csproj", "{314EBE6B-530D-4CA4-9582-0E2C57110F16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8ADF389-617F-4E72-90C3-E939F02B27A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8ADF389-617F-4E72-90C3-E939F02B27A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8ADF389-617F-4E72-90C3-E939F02B27A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8ADF389-617F-4E72-90C3-E939F02B27A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{314EBE6B-530D-4CA4-9582-0E2C57110F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314EBE6B-530D-4CA4-9582-0E2C57110F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314EBE6B-530D-4CA4-9582-0E2C57110F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314EBE6B-530D-4CA4-9582-0E2C57110F16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.aflac.com:8080/tfs/globalcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AboutJoeWare_Lib\\AboutJoeWare_Lib.csproj
+		SccProjectName1 = AboutJoeWare_Lib
+		SccLocalPath1 = AboutJoeWare_Lib
+		SccProjectUniqueName2 = CheckOutTheAboutBox\\CheckOutTheAboutBox.csproj
+		SccProjectName2 = CheckOutTheAboutBox
+		SccLocalPath2 = CheckOutTheAboutBox
+	EndGlobalSection
+EndGlobal
