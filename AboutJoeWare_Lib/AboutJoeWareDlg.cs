@@ -17,7 +17,7 @@ namespace AboutJoeWare_Lib
         public AboutJoeWareDlg()
         {
             InitializeComponent();
-            
+
             // ---------------------------------------------------------------------------------
             // This will retrieve the information from the app which loads this lib into memory.
 
@@ -38,7 +38,6 @@ namespace AboutJoeWare_Lib
         private void OnOk(object sender, System.EventArgs e)
         {
             DialogResult = DialogResult.OK;
-
         }
 
         // ------------------------------------------------
@@ -130,7 +129,7 @@ namespace AboutJoeWare_Lib
 
         private void SetWidth(string verbiage)
         {
-            var g = tbDescription.CreateGraphics();
+            var graphics = tbDescription.CreateGraphics();
             var iconWidth = iconDisplay.Width;
 
             // ------------------------
@@ -140,13 +139,13 @@ namespace AboutJoeWare_Lib
 
             var lines = verbiage.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
 
-            foreach (var line in lines)
+            foreach(var line in lines)
             {
-                var textWidth = g.MeasureString(line, tbDescription.Font).Width;
+                var textWidth = Convert.ToInt32(graphics.MeasureString(line, tbDescription.Font).Width);
 
-                if (textWidth > final)
+                if(textWidth > final)
                 {
-                    final = Convert.ToInt32(textWidth);
+                    final = textWidth;
                 }
             }
 

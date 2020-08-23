@@ -5,9 +5,9 @@ using AboutJoeWare_Lib;
 
 namespace CheckOutTheAboutBox
 {
-    public partial class Form1 : Form
+    public partial class DemoForm : Form
     {
-        public Form1()
+        public DemoForm()
         {
             InitializeComponent();
         }

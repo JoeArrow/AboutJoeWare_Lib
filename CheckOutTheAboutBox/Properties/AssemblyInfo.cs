@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
+// -------------------------------------------------------------------------
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
@@ -9,23 +10,28 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCulture("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyTrademark("JoeWare")]
-[assembly: AssemblyTitle("Check Out The About Box")]
 [assembly: AssemblyProduct("CheckOutTheAboutBox")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyTitle("Check Out The About Box")]
 [assembly: AssemblyDescription("This is just a sample description with additional words, just to make it longer.\r\n\r\n" + 
                                "From the AssemblyInfo.cs file.\r\n\r\nThis is what I needed!!")]
 
+// ------------------------------------------------------------------------
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.
 
 [assembly: ComVisible(false)]
 
-// The following GUID is for the ID of the typelib if this project is exposed to COM
+// ---------------------------------------
+// The following GUID is for the ID of the
+// typelib if this project is exposed to COM
 
 [assembly: Guid("314ebe6b-530d-4ca4-9582-0e2c57110f16")]
 
-// Version information for an assembly consists of the following four values:
+// --------------------------------------------
+// Version information for an assembly consists
+// of the following four values:
 //
 //      Major Version
 //      Minor Version 
