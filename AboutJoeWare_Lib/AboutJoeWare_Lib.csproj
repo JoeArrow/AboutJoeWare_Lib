@@ -34,14 +34,14 @@
     <ApplicationIcon>
     </ApplicationIcon>
   </PropertyGroup>
-  <PropertyGroup>
+  <!--<PropertyGroup>
     <Company>JoeWare</Company>
-    <Version>1.0.1</Version>
     <Authors>Joe_Arrowood</Authors>
     <PackageId>$(TargetName)</PackageId>
+    <Version>$(PackageVersion)</Version>
     <PackageOutputPath>$(OutputPath)</PackageOutputPath>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-  </PropertyGroup>
+  </PropertyGroup>-->
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -62,10 +62,10 @@
     <Compile Include="AboutJoeWareDlg.Designer.cs">
       <DependentUpon>AboutJoeWareDlg.cs</DependentUpon>
     </Compile>
-    <PackageReference Include="NuGet.Build.Tasks.Pack" Version="5.7.0">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    <!--<PackageReference Include="NuGet.Build.Tasks.Pack" Version="5.7.0">
+      <IncludeAssets>all</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
+    </PackageReference>-->
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -97,12 +97,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <Target Name="CopyPackage" AfterTargets="Pack">
-    <Copy SourceFiles="$(OutputPath)$(TargetName).1.0.1.nupkg" DestinationFolder="E:\Usage\NugetFeed\" />
-  </Target>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="CopyPackage" AfterTargets="Pack">
+    <Copy SourceFiles="$(OutputPath)$(TargetName).$(PackageVersion).nupkg" DestinationFolder="E:\Usage\NugetFeed\" />
+  </Target>
   <Target Name="BeforeBuild">
   </Target>
   <Target Name="AfterBuild">
