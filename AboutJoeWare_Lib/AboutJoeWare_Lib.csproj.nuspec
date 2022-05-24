@@ -7,7 +7,7 @@
         <tags>AboutBox Arrowood</tags>
         <copyright>$Copyright$</copyright>
         <authors>E99965 - Joe Arrowood</authors>
-        <description>$description$</description>
+		<description>Pre-built About Box</description>
         <license type="file">License.txt</license>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <dependencies>

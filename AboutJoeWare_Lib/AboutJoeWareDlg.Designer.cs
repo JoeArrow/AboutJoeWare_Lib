@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutJoeWareDlg));
             this.btnOk = new System.Windows.Forms.Button();
             this.iconDisplay = new System.Windows.Forms.PictureBox();
-            this.tbDescription = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.labelProductName = new System.Windows.Forms.Label();
             this.labelVersion = new System.Windows.Forms.Label();
             this.labelCopyright = new System.Windows.Forms.Label();
             this.labelTrademark = new System.Windows.Forms.Label();
+            this.tbDescription = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.iconDisplay)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -62,19 +62,6 @@
             this.iconDisplay.TabIndex = 2;
             this.iconDisplay.TabStop = false;
             // 
-            // tbDescription
-            // 
-            this.tbDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbDescription.Location = new System.Drawing.Point(168, 117);
-            this.tbDescription.Multiline = true;
-            this.tbDescription.Name = "tbDescription";
-            this.tbDescription.ReadOnly = true;
-            this.tbDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbDescription.Size = new System.Drawing.Size(411, 149);
-            this.tbDescription.TabIndex = 1;
-            // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -86,10 +73,10 @@
             this.tableLayoutPanel1.Controls.Add(this.labelProductName, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.labelVersion, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.labelCopyright, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.tbDescription, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.btnOk, 1, 6);
             this.tableLayoutPanel1.Controls.Add(this.labelTrademark, 1, 5);
             this.tableLayoutPanel1.Controls.Add(this.iconDisplay, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.tbDescription, 1, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 7;
@@ -149,6 +136,18 @@
             this.labelTrademark.TabIndex = 26;
             this.labelTrademark.Text = "Trademark";
             // 
+            // tbDescription
+            // 
+            this.tbDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbDescription.Location = new System.Drawing.Point(168, 117);
+            this.tbDescription.Name = "tbDescription";
+            this.tbDescription.ReadOnly = true;
+            this.tbDescription.Size = new System.Drawing.Size(411, 149);
+            this.tbDescription.TabIndex = 27;
+            this.tbDescription.Text = "";
+            // 
             // AboutJoeWareDlg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,11 +169,11 @@
 
         private System.Windows.Forms.Button btnOk;
         private System.Windows.Forms.PictureBox iconDisplay;
-        private System.Windows.Forms.TextBox tbDescription;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label labelProductName;
         private System.Windows.Forms.Label labelVersion;
         private System.Windows.Forms.Label labelCopyright;
         private System.Windows.Forms.Label labelTrademark;
+        private System.Windows.Forms.RichTextBox tbDescription;
     }
 }
